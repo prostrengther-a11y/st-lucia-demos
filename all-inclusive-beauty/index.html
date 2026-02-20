@@ -3,36 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Inclusive Beauty Designs | St. Lucia Luxury Salon</title>
+    <title>All Inclusive Beauty Designs | St. Lucia's Premier Salon</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        h1, h2 { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
     </style>
 </head>
-<body class="bg-stone-50 text-stone-900">
-    <nav class="p-6 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50">
-        <div class="text-xl font-bold tracking-tighter uppercase text-rose-700">All Inclusive</div>
-        <a href="tel:7584549306" class="bg-rose-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-rose-700 transition">Book Now</a>
+<body class="bg-stone-50 text-stone-900 leading-relaxed">
+    <nav class="p-5 flex justify-between items-center bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold tracking-tighter uppercase text-rose-800">All Inclusive</div>
+        <div class="hidden md:flex space-x-8 font-medium text-stone-600">
+            <a href="#about" class="hover:text-rose-700 transition">About</a>
+            <a href="#services" class="hover:text-rose-700 transition">Services</a>
+            <a href="#testimonials" class="hover:text-rose-700 transition">Reviews</a>
+        </div>
+        <a href="tel:7584549306" class="bg-rose-700 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-rose-800 transition shadow-lg">Book Appointment</a>
     </nav>
-    <header class="relative h-[80vh] flex items-center justify-center text-center bg-stone-900 text-white">
-        <div class="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=1000')] bg-cover bg-center"></div>
-        <div class="relative z-10 px-6 max-w-2xl">
-            <h1 class="text-5xl md:text-7xl mb-6 leading-tight">Elegance & Beauty Reimagined.</h1>
-            <p class="text-lg md:text-xl font-light mb-8 text-stone-200">Experience the finest hair and nail designs in St. Lucia. Your journey to radiance starts at All Inclusive Beauty Designs.</p>
-            <a href="tel:7584549306" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-white hover:text-stone-900 transition">Call to Book</a>
+
+    <header class="relative h-[90vh] flex items-center justify-center text-center bg-stone-900 text-white">
+        <div class="absolute inset-0 opacity-60 bg-[url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center"></div>
+        <div class="relative z-10 px-6 max-w-4xl">
+            <span class="uppercase tracking-[0.3em] text-sm mb-4 block text-rose-300 font-semibold">Castries, St. Lucia</span>
+            <h1 class="text-6xl md:text-8xl mb-8 leading-tight">True Beauty is an Art.</h1>
+            <p class="text-xl md:text-2xl font-light mb-10 text-stone-100 max-w-2xl mx-auto">Experience high-end hair, nail, and bridal designs tailored to your unique elegance.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#services" class="bg-white text-stone-900 px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-rose-700 hover:text-white transition shadow-xl">Our Services</a>
+                <a href="tel:7584549306" class="border-2 border-white/50 text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:border-white transition">Call Now</a>
+            </div>
         </div>
     </header>
-    <section class="py-20 px-6 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-3 gap-12">
-            <div><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" class="rounded-2xl mb-6 shadow-lg"><h3 class="text-2xl mb-2">Hair Styling</h3><p class="text-stone-600">Master cuts and coloring.</p></div>
-            <div><img src="https://images.unsplash.com/photo-1604654894610-df490668f602?auto=format&fit=crop&q=80&w=600" class="rounded-2xl mb-6 shadow-lg"><h3 class="text-2xl mb-2">Designer Nails</h3><p class="text-stone-600">Artistic manicures.</p></div>
-            <div><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" class="rounded-2xl mb-6 shadow-lg"><h3 class="text-2xl mb-2">Bridal Glam</h3><p class="text-stone-600">Wedding day perfection.</p></div>
+
+    <section id="about" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800" class="rounded-3xl shadow-2xl relative z-10">
+                <div class="absolute -bottom-6 -right-6 w-64 h-64 bg-rose-100 rounded-3xl -z-0"></div>
+            </div>
+            <div>
+                <h2 class="text-5xl mb-8">Elegance in Every Detail</h2>
+                <p class="text-stone-600 text-lg mb-6">At All Inclusive Beauty Designs, we believe that every woman deserves to feel like royalty. Located in the heart of Castries, our salon has been a sanctuary of style for years.</p>
+                <p class="text-stone-600 text-lg mb-8">From precision cutting to artistic nail designs and specialized bridal glam, our team is dedicated to providing an unmatched luxury experience in St. Lucia.</p>
+                <div class="grid grid-cols-2 gap-8 border-t border-stone-100 pt-8">
+                    <div><h4 class=\"text-3xl text-rose-700 font-bold mb-1 font-sans\">15+</h4><p class=\"text-sm text-stone-500 uppercase tracking-widest font-semibold\">Years Experience</p></div>
+                    <div><h4 class=\"text-3xl text-rose-700 font-bold mb-1 font-sans\">5000+</h4><p class=\"text-sm text-stone-500 uppercase tracking-widest font-semibold\">Happy Clients</p></div>
+                </div>
+            </div>
         </div>
     </section>
-    <footer class="py-10 px-6 text-center text-stone-400 text-sm border-t border-stone-200">
-        &copy; 2026 All Inclusive Beauty Designs. St. Lucia.
+
+    <section id="services" class="py-24 px-6 bg-stone-50">
+        <div class="text-center mb-20">
+            <h2 class="text-5xl mb-4 text-stone-800">Premium Services</h2>
+            <p class="text-stone-500 uppercase tracking-widest font-semibold">What we do best</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+            <div class="bg-white p-2 rounded-[2rem] shadow-sm hover:shadow-2xl transition duration-500">
+                <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=600" class="rounded-[1.8rem] mb-6 aspect-square object-cover">
+                <div class="p-6">
+                    <h3 class="text-3xl mb-3 text-stone-800">Hair Artistry</h3>
+                    <p class="text-stone-600 mb-4">Precision cuts, custom coloring, and master styling for any occasion.</p>
+                </div>
+            </div>
+            <div class="bg-white p-2 rounded-[2rem] shadow-sm hover:shadow-2xl transition duration-500">
+                <img src="https://images.unsplash.com/photo-1604654894610-df490668f602?auto=format&fit=crop&q=80&w=600" class="rounded-[1.8rem] mb-6 aspect-square object-cover">
+                <div class="p-6">
+                    <h3 class="text-3xl mb-3 text-stone-800">Designer Nails</h3>
+                    <p class="text-stone-600 mb-4">Luxurious manicures and pedicures with a focus on art and longevity.</p>
+                </div>
+            </div>
+            <div class="bg-white p-2 rounded-[2rem] shadow-sm hover:shadow-2xl transition duration-500">
+                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600" class="rounded-[1.8rem] mb-6 aspect-square object-cover">
+                <div class="p-6">
+                    <h3 class="text-3xl mb-3 text-stone-800">Bridal Beauty</h3>
+                    <p class="text-stone-600 mb-4">Professional bridal makeup and hair to make your big day unforgettable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 px-6 bg-rose-700 text-white overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-5xl mb-16 text-white leading-tight">\"The best salon experience in St. Lucia. I've never felt more beautiful than after a visit here.\"</h2>
+            <div class="flex items-center justify-center space-x-4 mb-2">
+                <img src=\"https://i.pravatar.cc/100?u=1\" class=\"w-16 h-16 rounded-full border-4 border-white/20\">
+                <div class=\"text-left\">
+                    <p class=\"font-bold text-xl\">Shermaine J.</p>
+                    <p class=\"text-rose-200 text-sm\">Regular Client</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-400 py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 border-b border-stone-800 pb-16">
+            <div class="md:col-span-2">
+                <h2 class="text-white text-3xl mb-6">All Inclusive Beauty Designs</h2>
+                <p class="text-lg max-w-sm">Elevating beauty standards in Castries with passion, art, and professional care.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-sm">Location</h4>
+                <p>Clarke Street<br>Castries, St. Lucia</p>
+                <p class="mt-4 text-white font-bold tracking-widest">758-454-9306</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-sm">Hours</h4>
+                <p>Mon - Fri: 9am - 6pm<br>Saturday: 9am - 4pm<br>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="pt-8 text-center text-sm">
+            &copy; 2026 All Inclusive Beauty Designs. All rights reserved.
+        </div>
     </footer>
 </body>
 </html>
