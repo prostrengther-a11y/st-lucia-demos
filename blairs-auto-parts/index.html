@@ -14,7 +14,7 @@
 <body class="bg-zinc-950 text-white">
     <nav class="p-6 flex justify-between items-center bg-black/95 border-b border-zinc-800 sticky top-0 z-50">
         <div class="nav-brand text-3xl font-bold tracking-tighter uppercase italic text-orange-500 leading-none">Blair's<br><span class="text-white">Auto Parts</span></div>
-        <div class="hidden md:flex space-x-10 uppercase text-sm font-bold tracking-widest">
+        <div class="hidden md:flex space-x-10 uppercase text-sm font-bold tracking-widest text-zinc-400">
             <a href="#inventory" class="hover:text-orange-500 transition">Inventory</a>
             <a href="#about" class="hover:text-orange-500 transition">About Us</a>
             <a href="#contact" class="hover:text-orange-500 transition">Contact</a>
@@ -36,22 +36,22 @@
     </header>
 
     <section id="inventory" class="py-32 px-6 bg-zinc-950">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-4">
-            <div class="bg-zinc-900/50 p-10 border-l-4 border-orange-600 hover:bg-zinc-800 transition">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-4 text-center">
+            <div class="bg-zinc-900/50 p-10 border-t-4 border-orange-600 hover:bg-zinc-800 transition">
                 <h3 class="text-4xl text-white mb-6 uppercase italic font-black">Engine</h3>
-                <p class="text-zinc-400 font-medium">Pistons, gaskets, and components for major Japanese brands.</p>
+                <p class="text-zinc-400 font-medium text-sm">Pistons, gaskets, and components for all Japanese brands.</p>
             </div>
-            <div class="bg-zinc-900/50 p-10 border-l-4 border-orange-600 hover:bg-zinc-800 transition">
+            <div class="bg-zinc-900/50 p-10 border-t-4 border-orange-600 hover:bg-zinc-800 transition">
                 <h3 class="text-4xl text-white mb-6 uppercase italic font-black">Chassis</h3>
-                <p class="text-zinc-400 font-medium">Shock absorbers, ball joints, and tie rods for maximum control.</p>
+                <p class="text-zinc-400 font-medium text-sm">Shock absorbers and tie rods for maximum control.</p>
             </div>
-            <div class="bg-zinc-900/50 p-10 border-l-4 border-orange-600 hover:bg-zinc-800 transition">
+            <div class="bg-zinc-900/50 p-10 border-t-4 border-orange-600 hover:bg-zinc-800 transition">
                 <h3 class="text-4xl text-white mb-6 uppercase italic font-black">Body</h3>
-                <p class="text-zinc-400 font-medium">Crash bars, bumpers, and lights to keep your vehicle looking new.</p>
+                <p class="text-zinc-400 font-medium text-sm">Bumpers and lights to keep your vehicle looking new.</p>
             </div>
-            <div class="bg-zinc-900/50 p-10 border-l-4 border-orange-600 hover:bg-zinc-800 transition">
-                <h3 class="text-4xl text-white mb-6 uppercase italic font-black">Fluid</h3>
-                <p class="text-zinc-400 font-medium">High-grade engine oils, degreasers, and coolants in stock.</p>
+            <div class="bg-zinc-900/50 p-10 border-t-4 border-orange-600 hover:bg-zinc-800 transition">
+                <h3 class="text-4xl text-white mb-6 uppercase italic font-black">Fluids</h3>
+                <p class="text-zinc-400 font-medium text-sm">High-grade engine oils and coolants in stock.</p>
             </div>
         </div>
     </section>
@@ -59,41 +59,37 @@
     <section id="about" class="py-32 px-6 bg-black">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center">
             <div>
-                <h2 class="text-6xl mb-10 italic uppercase font-black tracking-tighter">The Local Authority<br><span class=\"text-orange-600\">Since 1995.</span></h2>
-                <p class=\"text-xl text-zinc-400 leading-relaxed mb-8\">With over 25 years in the automotive industry, Blair's Auto Parts has become St. Lucia's most trusted source for high-quality engine and suspension parts.</p>
-                <p class=\"text-xl text-zinc-400 leading-relaxed\">We specialize in new parts for all major vehicles, stocked right here in Bois D'Orange Gros Islet. If we don't have it, we'll find it.</p>
+                <h2 class="text-6xl mb-10 italic uppercase font-black tracking-tighter">The Local Authority<br><span class="text-orange-600">Since 1995.</span></h2>
+                <p class="text-xl text-zinc-400 leading-relaxed mb-8">With over 25 years in the automotive industry, Blair's Auto Parts has become St. Lucia's most trusted source for high-quality engine and suspension parts.</p>
+                <p class="text-xl text-zinc-400 leading-relaxed">We specialize in new parts for all major vehicles, stocked right here in Bois D'Orange Gros Islet.</p>
             </div>
-            <div class=\"grid grid-cols-2 gap-4\">
-                <img src=\"https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600\" class=\"rounded-lg h-64 w-full object-cover grayscale hover:grayscale-0 transition duration-700\">
-                <img src=\"https://images.unsplash.com/photo-1530046339160-ce3e5b0c7a2f?auto=format&fit=crop&q=80&w=600\" class=\"rounded-lg h-64 w-full object-cover grayscale hover:grayscale-0 transition duration-700\">
-                <img src=\"https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=600\" class=\"rounded-lg h-64 w-full object-cover grayscale hover:grayscale-0 transition duration-700\">
-                <img src=\"https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=600\" class=\"rounded-lg h-64 w-full object-cover grayscale hover:grayscale-0 transition duration-700\">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="h-48 bg-zinc-800 rounded bg-[url('https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center"></div>
+                <div class="h-48 bg-zinc-800 rounded bg-[url('https://images.unsplash.com/photo-1530046339160-ce3e5b0c7a2f?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center"></div>
+                <div class="h-48 bg-zinc-800 rounded bg-[url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center"></div>
+                <div class="h-48 bg-zinc-800 rounded bg-[url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center"></div>
             </div>
         </div>
     </section>
 
-    <section class=\"py-32 px-6 bg-zinc-900/30 text-center\">
-        <div class=\"max-w-4xl mx-auto\">
-            <h2 class=\"text-6xl mb-10 italic uppercase font-black tracking-tighter leading-none italic uppercase\">\"Nobody beats Blair’s for quality and availability. They keep our fleet on the road.\"</h2>
-            <p class=\"text-orange-500 font-bold uppercase tracking-widest\">— St. Lucian Transit Group</p>
+    <footer id="contact" class="bg-black py-24 px-6 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-16">
+            <div>
+                <div class="text-3xl font-bold uppercase italic text-orange-500 mb-6 font-black Oswald">Blair's<br><span class="text-white">Auto Parts</span></div>
+                <p class="text-zinc-500">Premium parts and expertise since 1995.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold uppercase italic mb-6">Visit Us</h4>
+                <p class="text-zinc-400">Bois D'Orange Gros Islet Highway, St. Lucia</p>
+                <a href="tel:7584506609" class="text-orange-500 text-3xl font-black italic mt-4 block uppercase">758-450-6609</a>
+            </div>
+            <div>
+                <h4 class="text-white font-bold uppercase italic mb-6">Availability</h4>
+                <p class="text-zinc-400">Mon - Fri: 8:00am - 5:00pm<br>Saturday: 8:00am - 1:00pm</p>
+            </div>
         </div>
-    </section>
-
-    <footer id=\"contact\" class=\"bg-black py-32 px-6 border-t border-zinc-900\">
-        <div class=\"max-w-7xl mx-auto grid md:grid-cols-3 gap-12 py-12\">
-            <div>
-                <div class=\"nav-brand text-4xl font-bold tracking-tighter uppercase italic text-orange-500 mb-8\">Blair's<br><span class=\"text-white\">Auto Parts</span></div>
-                <p class=\"text-zinc-500 text-lg\">The engine of St. Lucia. Providing premium parts and unmatched expertise since 1995.</p>
-            </div>
-            <div>
-                <h4 class=\"text-white font-black uppercase italic text-xl mb-8\">Visit Us</h4>
-                <p class=\"text-zinc-400 text-xl\">Bois D'Orange Gros Islet<br>Highway, St. Lucia</p>
-                <a href=\"tel:7584506609\" class=\"text-orange-500 text-3xl font-black italic mt-6 block uppercase\">758-450-6609</a>
-            </div>
-            <div>
-                <h4 class=\"text-white font-black uppercase italic text-xl mb-8\">Availability</h4>
-                <p class=\"text-zinc-400 text-xl\">Mon - Fri: 8:00am - 5:00pm<br>Saturday: 8:00am - 1:00pm<br>Sunday: Closed</p>
-            </div>
+        <div class="pt-16 text-center text-zinc-800 text-xs uppercase tracking-widest font-bold">
+            &copy; 2026 Blair's Auto Parts. St. Lucia.
         </div>
     </footer>
 </body>
